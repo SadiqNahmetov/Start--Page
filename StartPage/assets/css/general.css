@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --second-font: "Lato", sans-serif;
+    --button-font: "Roboto", sans-serif;
+    --bg-color:#f44336;
+    --white-color:#fff;
+    --bg-color-gray: #f1f1f1;
+    --icon-color-gray: #757575;
+
+
+}
+
+
+body {
+    background-color: #fff;
+}
+ul {
+    list-style: none;
+}
+
+.menu__lists .menu__list--item a {
+    font-family: var(--main-font);
+}
+
+.header .header__content h2 {
+    font-family: var(--main-font);
+}
+.header .header__title p{
+    font-family: var(--second-font);
+}
+.header .button button {
+    font-family: var(--button-font);
+} 
